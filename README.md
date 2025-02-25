@@ -2,7 +2,7 @@
 Tenbird-OSCP
 
 NMAP
-  자주사용하는것 nmap -sT -sV -Pn -T5 --open {ip}
+  자주사용하는것 nmap -sT -sV -Pn -T5 --open {ip} <br>
 -sS : TCP SYN 스캔 (root권한 필요하며, 속도는 빠르지만 DOS 공격을 일으킬 수 있음)
 -sU : UDP 스캔 (SNMP 네트워크 서비스 확인 필요)
 -sT  : TCP CONNECT 스캔(기본)
